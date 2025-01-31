@@ -26,6 +26,52 @@ p {
     color: var(--primary-color);
 }
 
+
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2.5rem;
+    color: var(--accent1-color);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+.hero article img {
+    float: right;
+    margin-left: 15px;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
 .sociallinks a {
     text-decoration: none;
 }
