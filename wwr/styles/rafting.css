@@ -85,7 +85,7 @@ p {
 
 .gallery figure{
     text-align: center;
-    max-width: 300;
+    max-width: 300px;
 }
 
 .gallery img{
@@ -96,7 +96,7 @@ p {
 
 .sociallinks a {
     display: flex;
-    gap: 10;
+    gap: 10px;
 }
 .sociallinks img{
     width: 30px;
