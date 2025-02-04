@@ -147,7 +147,8 @@ img {
     height: auto;
 }
 
-footer .sociallinks { display: flex; 
+footer .sociallinks { 
+    display: flex; 
     justify-content: flex-end; 
     gap: 15px; }
 
