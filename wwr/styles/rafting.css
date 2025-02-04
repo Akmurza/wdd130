@@ -124,6 +124,7 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+    color: var(--accent1-color);
 }
 nav{
     grid-column: 2;
@@ -145,11 +146,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+footer .sociallinks { display: flex; 
+    justify-content: flex-end; 
+    gap: 15px; }
+
 footer {
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 20px;
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
