@@ -46,8 +46,8 @@ h1, h2 {
 
 
 p {
-    font-size: 20px;
-    color: white;
+    font-size: 25px;
+    color: black;
 }
 
 
@@ -101,6 +101,11 @@ p {
     height: auto;
     order: 2;
 
+}
+
+.hero article h1{
+    position: absolute; bottom: 333px; left: 260px;
+    color: black;
 }
 
 
@@ -191,12 +196,11 @@ footer {
 
 
 
-
-footer .sociallinks { 
+.sociallinks { 
     display: flex; 
     justify-content: space-between; 
     }
 
-footer .p{
-    color: var(--accent2-color);
+footer p{
+    color: white;
 }
