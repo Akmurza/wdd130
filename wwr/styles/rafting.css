@@ -174,9 +174,9 @@ nav li{
 
 
 footer {
-
-
-    display: flex;
+ 
+    display: grid;
+    grid-template-columns: 7fr 1fr;
     justify-content: space-between;
     text-align: center;
     padding: 20px;
@@ -194,5 +194,6 @@ footer .sociallinks {
     }
 
 footer .p{
+   
     color: var(--accent2-color);
 }
