@@ -129,8 +129,8 @@ p {
 .gallery figure{
     display:flex;
     text-align: center;
-    max-width: 140px;
-    max-height: 210px;
+    max-width: 210px;
+    max-height: 300px;
    
 
     
@@ -141,7 +141,8 @@ p {
 
 
 .gallery img{
-    width: 115%;
+    width: 70%;
+    height: 70%;
     flex-wrap: wrap;
 }
 
