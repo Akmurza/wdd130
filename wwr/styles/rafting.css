@@ -3,7 +3,7 @@
     --primary-color: #3574E1;
     --secondary-color: #111C99;
     --accent1-color: #FFFFFF;
-    --accent2-color: #E68C17;
+    --accent2-color: #ffb14b;
     --heading-font: 'Inconsolata',monospace;
     --text-font: 'Roboto', sans-serif;
 }
@@ -31,7 +31,7 @@ header h1{
 }
 
 
-body {
+body.about {
   
     font-family: var(--text-font);
     color: var(--primary-color);
