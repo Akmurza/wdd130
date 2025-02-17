@@ -185,7 +185,9 @@ nav li{
 }
 
 
-
+label {
+    color: black;
+}
 
 footer {
  
